@@ -1,4 +1,12 @@
-const http = require('http');
+const app = require('./src/config/custom-express')
+
+app.listen(3001, function(){
+    console.log("servidor rodando na porta 3001.....");
+});
+
+
+
+/*const http = require('http');
 const servidor = http.createServer(function(req , resp){
     let html = '';
     if(req.url =='/'){
@@ -28,3 +36,4 @@ const servidor = http.createServer(function(req , resp){
     resp.end(html);
 });
 servidor.listen(3001);
+*/
