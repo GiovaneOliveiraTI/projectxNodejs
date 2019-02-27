@@ -1,7 +1,7 @@
 const app = require('./src/config/custom-express')
 
 app.listen(3001, function(){
-    console.log("servidor rodando na porta 3001.....");
+    console.log("servidor rodando na porta 3000.....");
 });
 
 
